@@ -41,12 +41,15 @@ public:
     TaskQueue& operator= (const TaskQueue& t) = delete;
     static TaskQueue * getInstance()
     {
-        m_mutex.lock();
         if(m_taskQ == nullptr)
         {
-            m_taskQ = new TaskQueue();
+            m_mutex.lock();
+            if(m_taskQ == nullptr)
+            {
+                m_taskQ = new TaskQueue();
+            }
+            m_mutex.unlock();
         }
-        m_mutex.unlock();
         return m_taskQ;
     }
     void print()
@@ -59,6 +62,7 @@ private:
     static mutex m_mutex;
 };
 TaskQueue* TaskQueue::m_taskQ = nullptr ;
+mutex TaskQueue::m_mutex ;
 #endif
 int main()
 {

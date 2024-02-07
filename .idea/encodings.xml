@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/单例模式.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/创建型模式/单例模式.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/创建型模式/单例模式.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/创建型模式/原型模式.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/创建型模式/原型模式.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/创建型模式/工厂模式.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/创建型模式/工厂模式.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/创建型模式/抽象工厂模式.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/创建型模式/抽象工厂模式.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/创建型模式/生成器.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/创建型模式/生成器.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/创建型模式/简单工厂.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/创建型模式/简单工厂.cpp" charset="GBK" />
   </component>
 </project>
